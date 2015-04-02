@@ -14,7 +14,7 @@
 		C8912A171ABACC9100BFB500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8912A161ABACC9100BFB500 /* Images.xcassets */; };
 		C8912A1A1ABACC9100BFB500 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8912A181ABACC9100BFB500 /* LaunchScreen.xib */; };
 		C8912A261ABACC9100BFB500 /* week4practicumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8912A251ABACC9100BFB500 /* week4practicumTests.swift */; };
-		C8912A411ABACF1800BFB500 /* pirates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8912A401ABACF1800BFB500 /* pirates.swift */; };
+		C8912A411ABACF1800BFB500 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8912A401ABACF1800BFB500 /* Pirate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,7 +75,7 @@
 		C8912A241ABACC9100BFB500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8912A251ABACC9100BFB500 /* week4practicumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week4practicumTests.swift; sourceTree = "<group>"; };
 		C8912A2F1ABACD2F00BFB500 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
-		C8912A401ABACF1800BFB500 /* pirates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pirates.swift; sourceTree = "<group>"; };
+		C8912A401ABACF1800BFB500 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 				C8912A181ABACC9100BFB500 /* LaunchScreen.xib */,
 				C8912A0E1ABACC9100BFB500 /* week4practicum.xcdatamodeld */,
 				C8912A0A1ABACC9100BFB500 /* Supporting Files */,
-				C8912A401ABACF1800BFB500 /* pirates.swift */,
+				C8912A401ABACF1800BFB500 /* Pirate.swift */,
 			);
 			path = week4practicum;
 			sourceTree = "<group>";
@@ -304,7 +304,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8912A411ABACF1800BFB500 /* pirates.swift in Sources */,
+				C8912A411ABACF1800BFB500 /* Pirate.swift in Sources */,
 				C8912A121ABACC9100BFB500 /* ViewController.swift in Sources */,
 				C8912A0D1ABACC9100BFB500 /* AppDelegate.swift in Sources */,
 				C8912A101ABACC9100BFB500 /* week4practicum.xcdatamodeld in Sources */,
