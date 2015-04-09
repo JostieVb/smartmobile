@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
@@ -15,16 +16,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //Lege array voor pirates
-        var pirates = [Pirate]()
-        //Maak pirate
-        var piet = Pirate()
-        piet.name = "Piet"
-        piet.life = "1980 ->"
-        piet.comments = "Piet is quite boring"
-        piet.countryOfOrigin = "Belgium"
-        //Voeg pirate toe aan array
-        pirates.append(piet)
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,8 +47,19 @@ class ViewController: UIViewController {
         //Maak lege array voor Pirates
         var pirates = [Pirate]()
         
-        var jsonConverted = JSON(jsonData!)
+        var jsonConverted =  JSON(jsonData!)
         println(jsonConverted)
+        for subJson in jsonConverted
+        {
+            let newPirate = Pirate()
+            newPirate.name = subJson["name"].string
+            newPirate.comments = subJson["comments"].string
+            newPirate.life = subJson["life"].string
+            pirates.append(newPirate)
+  
+        }
+        
+        /*
         for (index: String, subJson: JSON) in
             jsonConverted {
                 let newPirate = Pirate()
@@ -66,5 +68,6 @@ class ViewController: UIViewController {
                 newPirate.life = subJson["life"].string
                 pirates.append(newPirate)
             }
+*/
     }
 }
