@@ -8,9 +8,20 @@
 
 import UIKit
 
-class Pirate: NSObject {
-    var name:String?
-    var life:String?
-    var countryOfOrigin:String?
-    var comments:String?
+public class Pirate
+{
+    public var name: String
+    public var life: String
+    public var yearsActive: String
+    public var originCountry: String
+    public var comments: String
+    
+    public init(_ name: String, life: String, yearsActive: String, originCountry: String, comments: String)
+    {
+        self.name = name
+        self.life = life
+        self.yearsActive = yearsActive
+        self.originCountry = originCountry
+        self.comments = comments
+    }
 }

@@ -15,15 +15,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        //Create empty array for Pirates
+        //Lege array voor pirates
         var pirates = [Pirate]()
-        //Create a pirate
+        //Maak pirate
         var piet = Pirate()
         piet.name = "Piet"
         piet.life = "1980 ->"
         piet.comments = "Piet is quite boring"
         piet.countryOfOrigin = "Belgium"
-        //Add it to the array
+        //Voeg pirate toe aan array
         pirates.append(piet)
     }
 
