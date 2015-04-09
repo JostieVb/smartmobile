@@ -51,10 +51,18 @@ class ViewController: UIViewController {
         println(jsonConverted)
         for subJson in jsonConverted
         {
-            let newPirate = Pirate()
-            newPirate.name = subJson["name"].string
-            newPirate.comments = subJson["comments"].string
-            newPirate.life = subJson["life"].string
+            let name = "Piet"
+            let life = "1550-2055"
+            let yearsActive = "1950-2000"
+            let originCountry = "The Netherlands"
+            let comments = "wat een baajse"
+            
+            //newPirate.name = subJson["name"].string
+            //newPirate.comments = subJson["comments"].string
+            //newPirate.life = subJson["life"].string
+            //pirates.append(newPirate)
+            let newPirate = Pirate(name, life: life, yearsActive: yearsActive, originCountry: originCountry, comments: comments)
+            
             pirates.append(newPirate)
   
         }
