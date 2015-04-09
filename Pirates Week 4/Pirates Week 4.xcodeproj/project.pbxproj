@@ -14,6 +14,7 @@
 		C8173F121AD6704400A8A9C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8173F111AD6704400A8A9C7 /* Images.xcassets */; };
 		C8173F151AD6704400A8A9C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8173F131AD6704400A8A9C7 /* LaunchScreen.xib */; };
 		C8173F211AD6704400A8A9C7 /* Pirates_Week_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8173F201AD6704400A8A9C7 /* Pirates_Week_4Tests.swift */; };
+		C8173F5E1AD6754B00A8A9C7 /* Pirate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8173F5D1AD6754B00A8A9C7 /* Pirate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		C8173F201AD6704400A8A9C7 /* Pirates_Week_4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pirates_Week_4Tests.swift; sourceTree = "<group>"; };
 		C8173F2A1AD670B800A8A9C7 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
 		C8173F4A1AD670E600A8A9C7 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "/Users/Joost/Documents/Alamofire-master/../SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<absolute>"; };
+		C8173F5D1AD6754B00A8A9C7 /* Pirate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pirate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			children = (
 				C8173F071AD6704400A8A9C7 /* AppDelegate.swift */,
 				C8173F0C1AD6704400A8A9C7 /* ViewController.swift */,
+				C8173F5D1AD6754B00A8A9C7 /* Pirate.swift */,
 				C8173F0E1AD6704400A8A9C7 /* Main.storyboard */,
 				C8173F111AD6704400A8A9C7 /* Images.xcassets */,
 				C8173F131AD6704400A8A9C7 /* LaunchScreen.xib */,
@@ -382,6 +385,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8173F5E1AD6754B00A8A9C7 /* Pirate.swift in Sources */,
 				C8173F0D1AD6704400A8A9C7 /* ViewController.swift in Sources */,
 				C8173F081AD6704400A8A9C7 /* AppDelegate.swift in Sources */,
 				C8173F0B1AD6704400A8A9C7 /* Pirates_Week_4.xcdatamodeld in Sources */,
