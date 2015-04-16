@@ -58,18 +58,16 @@ class ListTableViewController: UITableViewController {
         
         let CellID: NSString = "Cell"
         
-        var cell = tableView.dequeueReusableCellWithIdentifier(CellID) as UITableViewCell
+        //var cell = tableView.dequeueReusableCellWithIdentifier(CellID) as UITableViewCell
+        
+        var cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as UITableViewCell
         
         var aantalCellen: NSInteger = myInformation.count
+        if let ip = indexPath as NSIndexPath? {
         
-        if ( aantalCellen > 0 )
-        {
-            if let ip = indexPath as NSIndexPath? {
+            /*var data: NSManagedObjectContext = myInformation[ip.row] as NSManagedObjectContext
+            cell.textLabel!.text = data.valueForKeyPath("name") as? String*/
         
-                var data: NSManagedObjectContext = myInformation[ip.row] as NSManagedObjectContext
-                cell.textLabel.text = data.valueForKeyPath("name") as String
-        
-            }
         }
         return cell
     }

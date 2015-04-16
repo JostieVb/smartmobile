@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+@objc(Model)
 
 class Model: NSManagedObject {
     //Maak variabelen aan voor de attributen in de entity

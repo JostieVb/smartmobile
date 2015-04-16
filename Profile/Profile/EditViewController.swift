@@ -12,7 +12,7 @@ import CoreData
 class EditViewController: UIViewController {
 
     @IBOutlet weak var nameText: UITextField!
-    @IBOutlet weak var aboutText: UITextField!
+    @IBOutlet weak var aboutText: UITextView!
     @IBOutlet weak var instrumentsText: UITextField!
     
     override func viewDidLoad() {
