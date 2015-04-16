@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="A2l-Hh-kLa">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--My Profile-->
+        <scene sceneID="kGd-GJ-0h5">
+            <objects>
+                <tableViewController id="gIG-4Y-E0T" customClass="ListTableViewController" customModule="Profile" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="8Ts-LJ-aQJ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="aNh-Vq-DFD">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aNh-Vq-DFD" id="Qsc-PY-IRn">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="gIG-4Y-E0T" id="jsw-i6-b5E"/>
+                            <outlet property="delegate" destination="gIG-4Y-E0T" id="B7V-KI-bSf"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="My Profile" id="sqf-D3-aG7">
+                        <barButtonItem key="rightBarButtonItem" systemItem="edit" id="EJz-yD-5gP">
+                            <connections>
+                                <segue destination="JmZ-09-3Cx" kind="push" id="zhx-wz-4ee"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l1t-DW-FDt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1911" y="352"/>
+        </scene>
+        <!--Edit Profile-->
+        <scene sceneID="USV-3G-gor">
+            <objects>
+                <viewController id="JmZ-09-3Cx" customClass="EditViewController" customModule="Profile" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="q45-yg-eNH"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wkn-WA-1Pt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zDm-rc-sWf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="goO-cp-gSI">
+                                <rect key="frame" x="16" y="85" width="382" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="About" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="waq-M7-3fD">
+                                <rect key="frame" x="16" y="123" width="382" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Instruments" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k44-Ut-KVA">
+                                <rect key="frame" x="16" y="161" width="382" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Edit Profile" id="Sn4-9q-xXg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="WmX-kA-KUn">
+                            <connections>
+                                <action selector="save:" destination="JmZ-09-3Cx" id="UNn-2D-EtU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="aboutText" destination="waq-M7-3fD" id="PAv-oM-ndC"/>
+                        <outlet property="instrumentsText" destination="k44-Ut-KVA" id="U28-xV-teo"/>
+                        <outlet property="nameText" destination="goO-cp-gSI" id="hbR-Za-zOn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="viX-Hf-a9U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2346" y="352"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7PR-C5-X5d">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="A2l-Hh-kLa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sbB-ze-RQo">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gIG-4Y-E0T" kind="relationship" relationship="rootViewController" id="KkM-GE-HEI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sjv-py-aoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1167" y="352"/>
+        </scene>
+    </scenes>
+</document>
