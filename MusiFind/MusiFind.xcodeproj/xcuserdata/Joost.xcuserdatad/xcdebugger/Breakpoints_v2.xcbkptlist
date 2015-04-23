@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MusiFind/ProfileViewController.swift"
-            timestampString = "451429035.919603"
+            timestampString = "451473192.583485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MusiFind/ProfileViewController.swift"
-            timestampString = "451429046.063448"
+            timestampString = "451473192.583485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MusiFind/ProfileViewController.swift"
-            timestampString = "451429062.359677"
+            timestampString = "451473192.583485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "viewDidLoad()"
             landmarkType = "5">
          </BreakpointContent>
@@ -58,13 +58,43 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MusiFind/EditViewController.swift"
-            timestampString = "451429286.750673"
+            timestampString = "451473192.583485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
             landmarkName = "saveTapped(_:)"
             landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusiFind.EditViewController.saveTapped (MusiFind.EditViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "MusiFind"
+                  urlString = "file:///Users/Joost/Documents/Smart%20Mobile/MusiFind/MusiFind/EditViewController.swift"
+                  timestampString = "451473349.17806"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "6539">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MusiFind.EditViewController.saveTapped (MusiFind.EditViewController)(Swift.AnyObject) -&gt; ()"
+                  moduleName = "MusiFind"
+                  urlString = "file:///Users/Joost/Documents/Smart%20Mobile/MusiFind/MusiFind/EditViewController.swift"
+                  timestampString = "451473349.178391"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "7213">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -74,11 +104,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MusiFind/EditViewController.swift"
-            timestampString = "451470893.084788"
+            timestampString = "451473192.583485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "saveTapped(_:)"
             landmarkType = "5">
          </BreakpointContent>

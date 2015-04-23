@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-@objc(Model)
 
 class EditViewController: UIViewController {
 
